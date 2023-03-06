@@ -11,12 +11,12 @@ require (
 	github.com/VictoriaMetrics/fastcache v1.12.0
 	github.com/caddyserver/certmagic v0.17.1
 	github.com/cenkalti/backoff/v4 v4.1.3
-	github.com/cespare/xxhash/v2 v2.1.2
+	github.com/cespare/xxhash/v2 v2.2.0
 	github.com/client9/misspell v0.3.4
 	github.com/coreos/go-oidc/v3 v3.4.0
 	github.com/docker/docker v20.10.18+incompatible
-	github.com/envoyproxy/go-control-plane v0.10.3-0.20220819153403-8a9be01c9575
-	github.com/envoyproxy/protoc-gen-validate v0.6.10
+	github.com/envoyproxy/go-control-plane v0.10.3
+	github.com/envoyproxy/protoc-gen-validate v0.9.1
 	github.com/go-chi/chi/v5 v5.0.7
 	github.com/go-jose/go-jose/v3 v3.0.0
 	github.com/go-redis/redis/v8 v8.11.5
@@ -55,22 +55,22 @@ require (
 	github.com/rs/zerolog v1.28.0
 	github.com/shirou/gopsutil/v3 v3.22.8
 	github.com/spf13/viper v1.13.0
-	github.com/stretchr/testify v1.8.0
+	github.com/stretchr/testify v1.8.1
 	github.com/tniswong/go.rfcx v0.0.0-20181019234604-07783c52761f
 	github.com/tomnomnom/linkheader v0.0.0-20180905144013-02ca5825eb80
 	github.com/vektah/gqlparser v1.3.1
 	github.com/volatiletech/null/v9 v9.0.0
 	github.com/yuin/gopher-lua v0.0.0-20200816102855-ee81675732da
-	go.opencensus.io v0.23.0
+	go.opencensus.io v0.24.0
 	go.uber.org/zap v1.23.0
 	golang.org/x/crypto v0.0.0-20220722155217-630584e8d5aa
 	golang.org/x/exp v0.0.0-20220722155223-a9213eeb770e
-	golang.org/x/net v0.0.0-20220909164309-bea034e7d591
-	golang.org/x/oauth2 v0.0.0-20220822191816-0ebed06d0094
-	golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4
-	google.golang.org/api v0.97.0
-	google.golang.org/genproto v0.0.0-20220624142145-8cd45d7dbd1f
-	google.golang.org/grpc v1.49.0
+	golang.org/x/net v0.7.0
+	golang.org/x/oauth2 v0.5.0
+	golang.org/x/sync v0.1.0
+	google.golang.org/api v0.111.0
+	google.golang.org/genproto v0.0.0-20230223222841-637eb2293923
+	google.golang.org/grpc v1.53.0
 	google.golang.org/protobuf v1.28.1
 	gopkg.in/auth0.v5 v5.21.1
 	gopkg.in/yaml.v3 v3.0.1
@@ -79,7 +79,8 @@ require (
 
 require (
 	4d63.com/gochecknoglobals v0.1.0 // indirect
-	cloud.google.com/go/compute v1.7.0 // indirect
+	cloud.google.com/go/compute v1.18.0 // indirect
+	cloud.google.com/go/compute/metadata v0.2.3 // indirect
 	github.com/Antonboom/errname v0.1.7 // indirect
 	github.com/Antonboom/nilnil v0.1.1 // indirect
 	github.com/Azure/go-ansiterm v0.0.0-20210617225240-d185dfc1b5a1 // indirect
@@ -106,10 +107,10 @@ require (
 	github.com/breml/bidichk v0.2.3 // indirect
 	github.com/breml/errchkjson v0.3.0 // indirect
 	github.com/butuzov/ireturn v0.1.1 // indirect
-	github.com/census-instrumentation/opencensus-proto v0.3.0 // indirect
+	github.com/census-instrumentation/opencensus-proto v0.4.1 // indirect
 	github.com/charithe/durationcheck v0.0.9 // indirect
 	github.com/chavacava/garif v0.0.0-20220316182200-5cad0b5181d4 // indirect
-	github.com/cncf/xds/go v0.0.0-20220314180256-7f1daf1720fc // indirect
+	github.com/cncf/xds/go v0.0.0-20230105202645-06c439db220b // indirect
 	github.com/containerd/continuity v0.3.0 // indirect
 	github.com/daixiang0/gci v0.6.2 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
@@ -157,8 +158,8 @@ require (
 	github.com/golangci/unconvert v0.0.0-20180507085042-28b1c447d1f4 // indirect
 	github.com/google/go-tpm v0.3.2 // indirect
 	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510 // indirect
-	github.com/googleapis/enterprise-certificate-proxy v0.1.0 // indirect
-	github.com/googleapis/gax-go/v2 v2.4.0 // indirect
+	github.com/googleapis/enterprise-certificate-proxy v0.2.3 // indirect
+	github.com/googleapis/gax-go/v2 v2.7.0 // indirect
 	github.com/gordonklaus/ineffassign v0.0.0-20210914165742-4cc7213b9bc8 // indirect
 	github.com/gorilla/securecookie v1.1.1 // indirect
 	github.com/gostaticanalysis/analysisutil v0.7.1 // indirect
@@ -251,7 +252,7 @@ require (
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/ssgreg/nlreturn/v2 v2.2.1 // indirect
 	github.com/stbenjam/no-sprintf-host-port v0.1.1 // indirect
-	github.com/stretchr/objx v0.4.0 // indirect
+	github.com/stretchr/objx v0.5.0 // indirect
 	github.com/subosito/gotenv v1.4.1 // indirect
 	github.com/sylvia7788/contextcheck v1.0.4 // indirect
 	github.com/tchap/go-patricia/v2 v2.3.1 // indirect
@@ -281,10 +282,10 @@ require (
 	go.uber.org/multierr v1.6.0 // indirect
 	golang.org/x/exp/typeparams v0.0.0-20220613132600-b0d781184e0d // indirect
 	golang.org/x/lint v0.0.0-20210508222113-6edffad5e616 // indirect
-	golang.org/x/mod v0.6.0-dev.0.20220419223038-86c51ed26bb4 // indirect
-	golang.org/x/sys v0.0.0-20220908150016-7ac13a9a928d // indirect
-	golang.org/x/text v0.3.7 // indirect
-	golang.org/x/tools v0.1.12 // indirect
+	golang.org/x/mod v0.7.0 // indirect
+	golang.org/x/sys v0.5.0 // indirect
+	golang.org/x/text v0.7.0 // indirect
+	golang.org/x/tools v0.3.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	gopkg.in/DataDog/dd-trace-go.v1 v1.22.0 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
